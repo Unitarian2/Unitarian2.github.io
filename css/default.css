@@ -48,7 +48,7 @@ p, a, ul, li {
 
 /* BEGINNING */
 .beginning {
-    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("/images/background-beginning2.jpg");
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("/images/bg-welcome.jpg");
     background-size: cover;
     background-position: center center;
     height: 100vh;
@@ -298,12 +298,12 @@ a.active {
     background-image: url(/images/professional_experience/Voodoo.png);
 }
 
-.professional-experience-image-youtube {
-    background-image: url(/images/professional_experience/YouTube.png);
+.professional-experience-image-ecommerce {
+    background-image: url(/images/professional_experience/Marketplace.webp);
 }
 
-.professional-experience-image-aoni {
-    background-image: url(/images/professional_experience/Aoni.png);
+.professional-experience-image-tuphangames {
+    background-image: url(/images/professional_experience/TuphanGames.png);
 }
 
 .professional-experience-image-juicestutors {
