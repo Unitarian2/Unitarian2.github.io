@@ -589,7 +589,7 @@ a.active {
     background-size: cover;   
 }
 
-.fruit-trees-gameplay-gameplay {
+.fruit-trees-gameplay {
     background-image: url(/images/relevant_projects/GameplayGifs/FruitTrees.gif);
     background-size: cover;   
 }
@@ -702,7 +702,7 @@ a.active {
 }
 
 .fps-attack-icon {
-    background-image: url(/images/relevant_projects/Icons/FosAttack.png);
+    background-image: url(/images/relevant_projects/Icons/FpsAttack.png);
     background-size: cover;
 }
 
