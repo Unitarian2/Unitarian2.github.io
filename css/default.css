@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
 
 * {
 	padding: 0;
 	margin: 0;
     letter-spacing: 2px;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Raleway", sans-serif;
 }
 
 html {
@@ -25,7 +25,7 @@ p, a, ul, li {
     position: fixed;
     right: 10px;
     bottom: 10px;
-    background: #ff5080;
+    background: #117cd4;
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -85,7 +85,7 @@ p, a, ul, li {
 }
 
 .links-a:hover {
-    color: #ff5080;
+    color: #117cd4;
 }
 
 .idiom-a {
@@ -96,12 +96,12 @@ p, a, ul, li {
 }
 
 .idiom-a:hover {
-    background-color: #ff5080;
+    background-color: #035aa1;
     padding: 2.5px;
 }
 
 a.active {
-    background-color: #ff505c;
+    background-color: #117cd4;
     padding: 2.5px;
 }
 
@@ -115,7 +115,7 @@ a.active {
 }
 
 .social-networks-a:hover {
-    color: #ff5080;
+    color: #117cd4;
 }
 
 .presentation {
@@ -137,13 +137,13 @@ a.active {
 }
 
 .presentation-title {
-    font-size: 45px;
-    margin-bottom: 25px;
+    font-size: 40px;
+    margin-bottom: 10px;
     text-align: center;
 }
 
 .presentation-span, .nav-icon:hover {
-    color: #ff5080;
+    color: #117cd4;
 }
 
 .presentation-description {
@@ -156,17 +156,17 @@ a.active {
 .presentation-a {
     text-decoration: none;
     display: inline-block;
-    margin: 25px;
+    margin: 15px;
     padding: 20px 25px;
-    border: 2px solid #fff;
-    border-radius: 50px;
+    border: 3px solid #fff;
+    border-radius: 30px;
     color: #fff;
     text-transform: uppercase;
     transition: .3s;
 }
 
 .presentation-a:hover {
-    background-color: #ff5080;
+    background-color: #117cd4;
 }
 
 .nav-icon {
@@ -202,12 +202,13 @@ a.active {
 }
 
 .about-me-title {
+    text-align: center;
     font-size: 35px;  
     margin-bottom: 7px; 
     color: #111135;
     text-transform: uppercase;
     text-decoration: underline;
-    text-decoration-color: #d3d3d3;
+    text-decoration-color: #6facde;
     text-decoration-thickness: 3px;
 }
 
@@ -220,6 +221,7 @@ a.active {
     line-height: 25px;
     color: #565656;
     max-width: 1200px;
+    margin-bottom: 5px;
 }
 
 .about-me-download-cv {
@@ -227,15 +229,15 @@ a.active {
     color: #000;
     display: inline-block;
     padding: 12px 22px;
-    border: 2px solid #000;
-    border-radius: 50px;
+    border: 3px solid #000;
+    border-radius: 30px;
     transition: .3s;
     margin-top: 10px;
 }
 
 .about-me-download-cv:hover {
     color: #fff;
-    background-color: #ff5080;
+    background-color: #117cd4;
 }
 
 /* PROFESSIONAL EXPERIENCE */
@@ -250,7 +252,7 @@ a.active {
     color: #111135;
     text-transform: uppercase;
     text-decoration: underline;
-    text-decoration-color: #d3d3d3;
+    text-decoration-color: #6facde;
     text-decoration-thickness: 3px;
     text-align: center;
 }
@@ -529,7 +531,7 @@ a.active {
     font-size: 35px;   
     text-transform: uppercase;
     text-decoration: underline;
-    text-decoration-color: #d3d3d3;
+    text-decoration-color: #6facde;
     text-decoration-thickness: 3px;
     margin-bottom: 30px;
 }
@@ -551,7 +553,7 @@ a.active {
     color: #111135;
     text-transform: uppercase;
     text-decoration: underline;
-    text-decoration-color: #d3d3d3;
+    text-decoration-color: #6facde;
     text-decoration-thickness: 3px;
     padding-bottom: 25px;
 }
@@ -567,8 +569,8 @@ a.active {
     margin-bottom: 30px;
 }
 
-.match-3-pass-gameplay {
-    background-image: url(/images/relevant_projects/GameplayGifs/Match3PassGameplay.gif);
+.saloon-billiard-gameplay {
+    background-image: url(/images/relevant_projects/GameplayGifs/SaloonBilliard.gif);
     background-size: cover;   
 }
 
@@ -599,9 +601,13 @@ a.active {
 
 .projects-indie-games-title {
     text-align: center;
-    padding-bottom: 20px;
-    font-size: 27px;
-    letter-spacing: 5px;
+    font-size: 35px;   
+    color: #111135;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-color: #6facde;
+    text-decoration-thickness: 3px;
+    padding-bottom: 25px;
 }
 
 .project-row {
@@ -702,7 +708,7 @@ a.active {
 
 .project-button:hover {
     color: #fff;
-    background-color: #ff5080;
+    background-color: #117cd4;
 }
 
 /* CONTACT */
@@ -717,7 +723,7 @@ a.active {
     color: #111135;
     text-transform: uppercase;
     text-decoration: underline;
-    text-decoration-color: #d3d3d3;
+    text-decoration-color: #6facde;
     text-decoration-thickness: 3px;
     padding-bottom: 25px;
 }
@@ -725,18 +731,20 @@ a.active {
 .social-networks-contact {
     text-align: center;
     margin-bottom: 25px;
-    margin-left: 50px;
+    margin-left: 0px;
 }
 
 .social-network-contact {
     color: #000 !important;
-    margin-right: 50px !important;
+    padding-top: 10px !important;
+    margin-right: 0px !important;
+    margin-top: -20px !important;
     text-align: center !important;
     scale: 1.65;
 }
 
 .social-network-contact:hover {
-    color: #ff5080 !important;
+    color: #117cd4 !important;
 }
 
 .contact-submit-button {
@@ -752,7 +760,7 @@ a.active {
 }
 
 .contact-submit-button:hover {
-    background-color: #ff5080;
+    background-color: #117cd4;
 }
 
 .contact-input-field {
@@ -935,6 +943,7 @@ a.active {
         top: 73px;
     }
 }
+
 
 @media screen and (max-width:400px) {
     .project-source-code-a {
