@@ -1,8 +1,8 @@
 
 
 * {
-	padding: 0;
-	margin: 0;
+    padding: 0;
+    margin: 0;
     letter-spacing: 2px;
     box-sizing: border-box;
     font-family: "Raleway", sans-serif;
@@ -584,8 +584,33 @@ a.active {
     background-size: cover;
 }
 
-.world-cup-collector-gameplay {
-    background-image: url(/images/relevant_projects/GameplayGifs/WorldCupCollectorGameplay.gif);
+.soldier-prototype-gameplay {
+    background-image: url(/images/relevant_projects/GameplayGifs/SoldierPrototype.gif);
+    background-size: cover;   
+}
+
+.fruit-trees-gameplay-gameplay {
+    background-image: url(/images/relevant_projects/GameplayGifs/FruitTrees.gif);
+    background-size: cover;   
+}
+
+.fps-attack-gameplay {
+    background-image: url(/images/relevant_projects/GameplayGifs/FpsAttack.gif);
+    background-size: cover;   
+}
+
+.game-of-luck-gameplay {
+    background-image: url(/images/relevant_projects/GameplayGifs/GameOfLuck.gif);
+    background-size: cover;   
+}
+
+.delivery-game-gameplay {
+    background-image: url(/images/relevant_projects/GameplayGifs/DeliveryGame.gif);
+    background-size: cover;   
+}
+
+.matching-game-gameplay {
+    background-image: url(/images/relevant_projects/GameplayGifs/MatchingGame.gif);
     background-size: cover;   
 }
 
@@ -661,33 +686,37 @@ a.active {
     font-size: 23px;
 }
 
-.match-3-pass-icon {
-    background-image: url(/images/relevant_projects/Icons/Match3PassIcon.jpg);
+.saloon-billiard-icon {
+    background-image: url(/images/relevant_projects/Icons/SaloonBilliard.png);
     background-size: cover;     
 }
 
-.shake-it-and-find-it-icon {
-    background-image: url(/images/relevant_projects/Icons/ShakeItAndFindItIcon.png);
-    background-size: cover;    
-}
 
-.circle-combat-icon {
-    background-image: url(/images/relevant_projects/Icons/CircleCombatIcon.png);
+.soldier-prototype-icon {
+    background-image: url(/images/relevant_projects/Icons/SoldierPrototype.png);
+    background-size: cover;
+}
+.fruit-trees-icon {
+    background-image: url(/images/relevant_projects/Icons/FruitTrees.png);
     background-size: cover;
 }
 
-.world-cup-collector-icon {
-    background-image: url(/images/relevant_projects/Icons/WorldCupCollectorIcon.jpg);
+.fps-attack-icon {
+    background-image: url(/images/relevant_projects/Icons/FosAttack.png);
     background-size: cover;
 }
 
-.protect-the-ufo-icon {
-    background-image: url(/images/relevant_projects/Icons/ProtectTheUFOIcon.jpg);
+.game-of-luck-icon {
+    background-image: url(/images/relevant_projects/Icons/GameOfLuck.png);
     background-size: cover;
 }
 
-.swipe-never-stop-icon {
-    background-image: url(/images/relevant_projects/Icons/SwipeNeverStopIcon.png);
+.delivery-game-icon {
+    background-image: url(/images/relevant_projects/Icons/DeliveryGame.png);
+    background-size: cover;
+}
+.matching-game-icon {
+    background-image: url(/images/relevant_projects/Icons/MatchingGame.png);
     background-size: cover;
 }
 
