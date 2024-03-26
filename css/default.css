@@ -519,7 +519,7 @@ a.active {
 
 /* SKILLS */
 .skills {
-    background: linear-gradient(#3b3b3bcc, rgba(0, 0, 0, 0.8)), url("/images/background-skills.jpg");
+    background: linear-gradient(#3b3b3bcc, rgba(0, 0, 0, 0.8)), url("/images/bg-skills.png");
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
