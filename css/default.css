@@ -294,10 +294,6 @@ a.active {
     background-position: center center;
 }
 
-.professional-experience-image-voodoo {
-    background-image: url(/images/professional_experience/Voodoo.png);
-}
-
 .professional-experience-image-ecommerce {
     background-image: url(/images/professional_experience/Marketplace.png);
 }
@@ -307,14 +303,6 @@ a.active {
 }
 
 
-.professional-experience-image-juicestutors {
-    background-image: url(/images/professional_experience/JuicesTutors.png);
-}
-
-.professional-experience-image-fiverr {
-    background-image: url(/images/professional_experience/Fiverr.png);
-}
-
 .professional-experience-name {
     font-size: 17px;
     margin-right: 10px;
@@ -322,7 +310,10 @@ a.active {
     margin-top: 10px;
 }
 
-.aoni-experience-name {
+.ecommerce-experience-name {
+    font-size: 19px;
+}
+.indiedev-experience-name {
     font-size: 19px;
 }
 
@@ -575,15 +566,7 @@ a.active {
     background-size: cover;   
 }
 
-.shake-it-and-find-it-gameplay {
-    background-image: url(/images/relevant_projects/GameplayGifs/ShakeItAndFindItGameplay.gif);
-    background-size: cover;   
-}
 
-.circle-combat-gameplay {
-    background-image: url(/images/relevant_projects/GameplayGifs/CircleCombatGameplay.gif);
-    background-size: cover;
-}
 
 .soldier-prototype-gameplay {
     background-image: url(/images/relevant_projects/GameplayGifs/SoldierPrototype.gif);
@@ -615,15 +598,7 @@ a.active {
     background-size: cover;   
 }
 
-.protect-the-ufo-gameplay {
-    background-image: url(/images/relevant_projects/GameplayGifs/ProtectTheUFOGameplay.gif);
-    background-size: cover;   
-}
 
-.swipe-never-stop-gameplay {
-    background-image: url(/images/relevant_projects/GameplayGifs/SwipeNeverStopGameplay.gif);
-    background-size: cover;   
-}
 
 .projects-indie-games-title {
     text-align: center;
@@ -923,28 +898,7 @@ a.active {
 }
 
 @media screen and (max-width:900px) {
-    .match-3-pass-gameplay {
-        background-image: url(/images/relevant_projects/GameplayPngs/Match3PassGameplay.png);
-    }
-    .shake-it-and-find-it-gameplay {
-        background-image: url(/images/relevant_projects/GameplayPngs/ShakeItAndFIndItGameplay.png);
-    }
-
-    .circle-combat-gameplay {
-        background-image: url(/images/relevant_projects/GameplayPngs/CircleCombatGameplay.png);
-    }
-
-    .world-cup-collector-gameplay {
-        background-image: url(/images/relevant_projects/GameplayPngs/WorldCupCollectorGameplay.png);
-    }
-
-    .protect-the-ufo-gameplay {
-        background-image: url(/images/relevant_projects/GameplayPngs/ProtectTheUFOGameplay.png);
-    }
-
-    .swipe-never-stop-gameplay {
-        background-image: url(/images/relevant_projects/GameplayPngs/SwipeNeverStopGameplay.png);
-    }
+    
 }
 
 @media screen and (max-width:445px) {
