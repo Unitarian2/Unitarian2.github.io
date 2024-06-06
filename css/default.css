@@ -671,7 +671,10 @@ a.active {
     background-image: url(/images/relevant_projects/Icons/SaloonBilliard.png);
     background-size: cover;     
 }
-
+.cutey-ranch-icon {
+    background-image: url(/images/relevant_projects/Icons/CuteyRanch.png);
+    background-size: cover;     
+}
 
 .soldier-prototype-icon {
     background-image: url(/images/relevant_projects/Icons/SoldierPrototype.png);
